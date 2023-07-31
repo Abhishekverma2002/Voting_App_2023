@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "602575762817",
+    "project_id": "voting-app-2023",
+    "storage_bucket": "voting-app-2023.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:602575762817:android:01df3bc904a44bf322e480",
+        "android_client_info": {
+          "package_name": "com.example.votingapp2023"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "602575762817-52ki5p4ojgd4fkac84ssn8la1m81kqgq.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.votingapp2023",
+            "certificate_hash": "e554e06d14a586b2fb7263a0ee214b9241e71b7f"
+          }
+        },
+        {
+          "client_id": "602575762817-1gmmmeafbh0m47vdj956gao4d65psubv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDfp39VJ5ozwW7wYm5DPrAOZaniaRdXv-c"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "602575762817-1gmmmeafbh0m47vdj956gao4d65psubv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".VotingDashBoard"
+    android:background="@drawable/indianflag">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="330dp"
+            android:layout_height="44dp"
+            android:layout_marginStart="25dp"
+            android:layout_marginTop="50dp"
+            android:fontFamily="sans-serif-medium"
+            android:text="Select Below To Cast Vote: "
+            android:textColor="#FFFFFF"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="match_parent"
+            android:layout_height="226dp"
+            android:layout_marginTop="25dp"
+            app:srcCompat="@drawable/vote"
+            android:layout_marginHorizontal="50dp"/>
+
+        <Button
+            android:id="@+id/congress"
+            android:layout_width="205dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="35dp"
+            android:layout_marginTop="50dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginBottom="15dp"
+            android:drawableStart="@drawable/congress"
+            android:background="@drawable/button_layout"
+            android:text="Congress " />
+
+        <Button
+            android:id="@+id/aap"
+            android:layout_width="258dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="35dp"
+            android:layout_marginBottom="15dp"
+            android:background="@drawable/button_layout"
+            android:text="Aam Aadmi Party" />
+
+        <Button
+            android:id="@+id/bjp"
+            android:layout_width="316dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="35dp"
+            android:drawableStart="@drawable/bjpp"
+            android:background="@drawable/button_layout"
+            android:text="Bharatiya Janta Party (BJP)" />
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
